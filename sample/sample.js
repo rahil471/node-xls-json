@@ -1,8 +1,9 @@
 var xls_json = require('../')
 
 xls_json({
-  input: __dirname + '/sample-xls.xls',
-  output: __dirname + '/test.json'
+  input: __dirname + '/Book1.xls',
+  output: __dirname + '/test1.json',
+  lowerCaseHeaders : true
 }, function(err, result) {
   
   if(err) {
