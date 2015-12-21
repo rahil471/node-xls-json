@@ -20,6 +20,7 @@ Converting xls file to json files using nodejs. This is a fork of DataGarage mod
     input: "sample.xls",  // input xls
     output: "output.json", // output json
     sheet: "sheetname",  // specific sheetname
+    lowerCaseHeaders:true
   }, function(err, result) {
     if(err) {
       console.error(err);
