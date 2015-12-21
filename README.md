@@ -1,19 +1,21 @@
-# node-xls-json
+# node-xls-json-lc
 
 [![Build Status](https://travis-ci.org/DataGarage/node-xls-json.svg?branch=master)](https://travis-ci.org/DataGarage/node-xls-json)
 
-Converting xls file to json files using nodejs
+Credits to DataGarage
+
+Converting xls file to json files using nodejs. This is a fork of DataGarage module with additional option of converting excel headers to lowerCase as json keys.
 
 ## Install
 
 ```
-  npm install xls-to-json
+  npm install xls-to-json-lc
 ```
 
 ## Usage
 
 ``` javascript
-  node_xj = require("xls-to-json");
+  node_xj = require("xls-to-json-lc");
   node_xj({
     input: "sample.xls",  // input xls
     output: "output.json", // output json
