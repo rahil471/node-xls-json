@@ -1,6 +1,6 @@
 {
   "name": "xls-to-json-lc",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Converting xls file to json files using nodejs. Credits DataGarage",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/DataGarage/node-xls-json",
   "dependencies": {
-    "xlsjs": "0.7.0",
+    "xlsjs": "0.7.6",
     "csv": "~0.3.6"
   },
   "devDependencies": {
